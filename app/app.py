@@ -29,7 +29,7 @@ orders = [
 @app.route("/")
 def home():
     return jsonify({
-        "message": "ECS Fargate Order API is running",
+        "message": "ECS Fargate Order API is running with CI/CD",
         "project": "ECS Fargate Order Microservice",
         "status": "success"
     })
